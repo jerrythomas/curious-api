@@ -1,0 +1,31 @@
+{
+  "name": "curious-api",
+  "version": "0.0.1",
+  "description": "Rest api to access multiple databases.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "istanbul cover tape ./spec/*.spec.js"
+  },
+  "keywords": [
+    "query",
+    "database",
+    "rest"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerrythomas/curious-api.git"
+  },
+  "author": "Jerry Thomas",
+  "license": "MIT",
+  "dependencies": {
+    "env2": "^2.2.0",
+    "hapi": "^16.5.2",
+    "hapi-plugin-oracledb": "^3.0.3",
+    "hapi-postgres-connection": "^6.4.0",
+    "istanbul": "^0.4.5",
+    "joi": "^10.6.0",
+    "oracledb": "^1.13.1",
+    "tape": "^4.8.0"
+  }
+}
