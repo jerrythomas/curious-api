@@ -5,9 +5,8 @@
 #sudo apt-get install -qq libaio1
 echo "Setting up oracle instant client and sdk"
 pwd
-curl https://github.com/CollinEstes/docker-node-oracle/blob/master/oracle/linux/instantclient-basic-linux.x64-12.1.0.2.0.zip?raw=true | python -c "import zipfile,sys,StringIO;zipfile.ZipFile(StringIO.StringIO(sys.stdin.read())).extractall(sys.argv[1] if len(sys.argv) == 2 else '.')" ./
-curl https://github.com/CollinEstes/docker-node-oracle/blob/master/oracle/linux/instantclient-sdk-linux.x64-12.1.0.2.0.zip?raw=true | python -c "import zipfile,sys,StringIO;zipfile.ZipFile(StringIO.StringIO(sys.stdin.read())).extractall(sys.argv[1] if len(sys.argv) == 2 else '.')" ./
-#curl https://raw.githubusercontent.com/davidgaya/docker-apache-php-oci/master/instantclient-sqlplus-linux.x64-12.1.0.2.0.zip -O - | unzip-stream ./
+curl https://raw.githubusercontent.com/CollinEstes/docker-node-oracle/master/oracle/linux/instantclient-basic-linux.x64-12.1.0.2.0.zip | python -c "import zipfile,sys,StringIO;zipfile.ZipFile(StringIO.StringIO(sys.stdin.read())).extractall(sys.argv[1] if len(sys.argv) == 2 else '.')" ./
+curl https://raw.githubusercontent.com/CollinEstes/docker-node-oracle/master/oracle/linux/instantclient-sdk-linux.x64-12.1.0.2.0.zip | python -c "import zipfile,sys,StringIO;zipfile.ZipFile(StringIO.StringIO(sys.stdin.read())).extractall(sys.argv[1] if len(sys.argv) == 2 else '.')" ./
 
 pushd .
 cd instantclient_12_1

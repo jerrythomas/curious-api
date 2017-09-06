@@ -9,6 +9,6 @@ addons:
        curl
        unzip
 before_install:
-- source /home/travis/build/jerrythomas/curious-api/scripts/node_oracle_env.sh
+- source ./scripts/node_oracle_env.sh
 notifications:
   email: false
