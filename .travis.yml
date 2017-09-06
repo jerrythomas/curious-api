@@ -9,7 +9,7 @@ addons:
        curl
        unzip
   sonarcloud:
-    organization: "sonarsource"
+    organization: "jerrythomas-github"
 
 jdk:
   - oraclejdk8

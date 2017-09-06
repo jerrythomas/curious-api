@@ -2,9 +2,9 @@
 
 ### A rest api to access multiple databases. ###
 
-[![Build Status](https://travis-ci.org/jerrythomas/curious-api.svg?branch=travis)]
+[![Build Status](https://travis-ci.org/jerrythomas/curious-api.svg?branch=travis)](https://travis-ci.org/jerrythomas/curious-api/)
 [![Coverage Status](https://coveralls.io/repos/github/jerrythomas/curious-api/badge.svg)](https://coveralls.io/github/jerrythomas/curious-api) 
-[![Security Scan](https://nodesecurity.io/orgs/jerrythomas/projects/16e8ceba-7614-41fe-843d-8a03294736db/badge)]
+[![NSP Status](https://nodesecurity.io/orgs/jerrythomas/projects/16e8ceba-7614-41fe-843d-8a03294736db/badge)](https://nodesecurity.io/orgs/jerrythomas/projects/16e8ceba-7614-41fe-843d-8a03294736db)
 [![Dependency Status](https://david-dm.org/jerrythomas/curious-api.svg)](https://david-dm.org/jerrythomas/curious-api)
 [![devDependency Status](https://david-dm.org/jerrythomas/curious-api/dev-status.svg)](https://david-dm.org/jerrythomas/curious-api#info=devDependencies)
 
