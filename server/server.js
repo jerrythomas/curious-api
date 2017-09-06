@@ -1,10 +1,10 @@
 'use strict';
-// loads all entries into process.env
+
 const Hapi = require('hapi');
 const Joi = require('joi');
 const server = new Hapi.Server();
 
-require('env2')('.env');    
+require('env2')('.env');    // loads all entries into process.env
 
 server.connection({ 
     port: process.env.PORT, 
@@ -27,4 +27,3 @@ server.route({
 });
 
 module.exports = server;
-
