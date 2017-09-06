@@ -5,7 +5,11 @@
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
-    "test": "istanbul cover tape ./spec/*.spec.js"
+    "test": "tape ./spec/*.spec.js",
+    "cover": "istanbul cover tape ./spec/*.spec.js",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
+    "codecov": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info && codecov",
+    "lint": "eslint server/*.js"
   },
   "keywords": [
     "query",
@@ -27,5 +31,14 @@
     "joi": "^10.6.0",
     "oracledb": "^1.13.1",
     "tape": "^4.8.0"
+  },
+  "devDependencies": {
+    "codecov": "^2.3.0",
+    "coveralls": "^2.13.1",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-fix": "^1.0.3",
+    "eslint-plugin-import": "^2.7.0",
+    "js-beautify": "^1.6.14"
   }
 }

@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- 6 
+- "stable"
 addons:
   apt:
     packages:
@@ -8,11 +8,25 @@ addons:
        build-essential
        curl
        unzip
+  sonarcloud:
+    organization: "sonarsource"
+
+jdk:
+  - oraclejdk8
+
+script:
+  - sonar-scanner
+
+cache:
+  directories:
+    - '$HOME/.sonar/cache'    
 before_install:
   - source ./scripts/node_oracle_env.sh
 env:
   - PORT=8000
   - BASE_URL=http://localhost:8000
-  - PACKAGE_VERSION="1.0.*"
+  - PACKAGE_VERSION="0.0.*"
+after_success:
+- npm run coveralls
 notifications:
   email: false
