@@ -1,7 +1,14 @@
 language: node_js
 node_js:
 - 6 
+addons:
+  apt:
+    packages:
+       libaio1
+       build-essential
+       curl
+       unzip
 before_install:
-- source ./scripts/node_oracle_env.sh
+- source scripts/node_oracle_env.sh
 notifications:
   email: false
