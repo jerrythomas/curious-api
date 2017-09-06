@@ -10,6 +10,8 @@ addons:
        unzip
   sonarcloud:
     organization: "jerrythomas-github"
+    branches :
+      - sonarqube
 
 jdk:
   - oraclejdk8
