@@ -24,6 +24,8 @@
   "author": "Jerry Thomas",
   "license": "MIT",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "env2": "^2.2.0",
     "hapi": "^16.5.2",
     "hapi-plugin-oracledb": "^3.0.3",
@@ -31,14 +33,16 @@
     "istanbul": "^0.4.5",
     "joi": "^10.6.0",
     "oracledb": "^1.13.1",
+    "pg": "^7.3.0",
     "tape": "^4.8.0"
   },
   "devDependencies": {
     "codecov": "^2.3.0",
     "coveralls": "^2.13.1",
     "eslint": "^4.6.1",
-    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-config-hapi": "^10.1.0",
     "eslint-fix": "^1.0.3",
+    "eslint-plugin-hapi": "^4.0.0",
     "eslint-plugin-import": "^2.7.0",
     "js-beautify": "^1.6.14",
     "nodemon": "^1.12.0",

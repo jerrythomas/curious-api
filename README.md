@@ -3,11 +3,12 @@
 ### A rest api to access multiple databases. ###
 
 [![Build Status](https://travis-ci.org/jerrythomas/curious-api.svg?branch=travis)](https://travis-ci.org/jerrythomas/curious-api/)
-[![Coverage Status](https://coveralls.io/repos/github/jerrythomas/curious-api/badge.svg)](https://coveralls.io/github/jerrythomas/curious-api) 
-[![NSP Status](https://nodesecurity.io/orgs/jerrythomas/projects/16e8ceba-7614-41fe-843d-8a03294736db/badge)](https://nodesecurity.io/orgs/jerrythomas/projects/16e8ceba-7614-41fe-843d-8a03294736db)
+[![Coverage Status](https://coveralls.io/repos/github/jerrythomas/curious-api/badge.svg)](https://coveralls.io/github/jerrythomas/curious-api)
 [![Dependency Status](https://david-dm.org/jerrythomas/curious-api.svg)](https://david-dm.org/jerrythomas/curious-api)
 [![devDependency Status](https://david-dm.org/jerrythomas/curious-api/dev-status.svg)](https://david-dm.org/jerrythomas/curious-api#info=devDependencies)
 
+[![NSP Status](https://nodesecurity.io/orgs/jerrythomas/projects/16e8ceba-7614-41fe-843d-8a03294736db/badge)](https://nodesecurity.io/orgs/jerrythomas/projects/16e8ceba-7614-41fe-843d-8a03294736db)
+[![Known Vulnerabilities](https://snyk.io/test/github/jerrythomas/curious-api/badge.svg)](https://snyk.io/test/github/jerrythomas/curious-api)
 Version 0.0.1
 
 ## Goals
@@ -30,12 +31,12 @@ npm install
 npm start
 ```
 
-Navigate to `http://localhost:4200/`. 
+Navigate to `http://localhost:8000/`. 
 
 ## Running unit tests
 
-Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm test` to execute the unit tests.
 
 ## Related
 
-Check out [curious-app](https://github.com/jerrythomas/curious-api) for an angular app using these api. 
+Check out [curious-app](https://github.com/jerrythomas/curious-app) for an angular app using these api. 
