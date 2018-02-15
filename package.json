@@ -24,11 +24,11 @@
   "license": "MIT",
   "dependencies": {
     "env2": "^2.2.0",
-    "hapi": "^16.5.2",
+    "hapi": "^17.0.0",
     "hapi-plugin-oracledb": "^3.0.3",
     "hapi-postgres-connection": "^6.4.0",
     "istanbul": "^0.4.5",
-    "joi": "^10.6.0",
+    "joi": "^13.0.0",
     "oracledb": "^1.13.1",
     "tape": "^4.8.0"
   },
